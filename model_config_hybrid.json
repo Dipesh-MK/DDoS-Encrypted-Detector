@@ -1,0 +1,26 @@
+{
+  "model_name": "RandomForest_Hybrid_CIC+PCAP",
+  "features": [
+    "iat_max",
+    "pps",
+    "iat_std",
+    "payload_std",
+    "pkt_size_std",
+    "iat_mean",
+    "payload_mean",
+    "total_bytes",
+    "bps",
+    "pkt_size_mean",
+    "bytes_per_pkt",
+    "duration_s",
+    "fin_ratio",
+    "syn_ratio",
+    "pkt_count"
+  ],
+  "needs_scale": false,
+  "threshold": 0.5,
+  "trained_at": "2026-04-11T11:13:53.034913",
+  "n_flows_cic": 99121,
+  "n_flows_yours": 3112,
+  "note": "Trained on CIC-DDoS2019 then fine-tuned on your encrypted PCAPs"
+}
